@@ -1,0 +1,147 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color:orange;
+	color: #fff;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo img {
+	width: 100px;
+	height: 50px;
+	margin-right: 10px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+    font-size: larger;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: none;
+}
+
+.featured-post {
+	padding: 50px;
+	text-align: center;
+}
+
+.featured-post img {
+	width: 190%;
+	max-width: 800px;
+	margin: 30px 0;
+}
+.featured-post h2 {
+	font-size: 30px;
+	margin-top: 5px;
+}
+
+.featured-post h3 {
+	font-size: 30px;
+	margin: 20px 0;
+}
+
+.featured-post p {
+	font-size: 18px;
+	line-height: 1;
+}
+
+.featured-post a {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color:orange;
+	color: #fff;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-top: 30px;
+}
+.contacts{
+    background-color: orange;
+    text-align: center;
+    padding: 50px 250px;
+}
+.contactsinfo{
+    display: flex;
+    
+}
+
+.contactsinfo div{
+    padding-right: 50px;
+    text-align: left;
+
+}
+
+
+.form input{
+    padding: 10px;
+    background-color: white;
+    width: 400px;
+    height: 40px;
+    border: 0px solid;
+    border-radius: 5px;
+}
+
+.form textarea{
+    padding: 10px;
+    background-color: white;
+    width: 400px;
+    height: 100px;
+    border: 0px solid;
+    border-radius: 5px;
+}
+.aboutme{
+    background-color: rgb(224, 219, 213);
+    margin: 120px 300px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.aboutme a {
+	display: inline-block;
+	padding: 10px 10px;
+	background-color:orange;
+	color: #fff;
+	border-radius: 15px;
+	text-decoration: none;
+	margin-top: 20px;
+}
+
+.message{
+    text-align: left;
+}
+
+.contactby{
+    display: flex;
+    margin: 10px;
+     border: 0px solid white;
+    justify-content:left;
+	color: #fff;
+    
+}
+.fb{
+	image-resolution: 1080px;
+}
+footer{
+	text-align: center;
+	font-weight: 700;
+	font-size: larger;
+}
